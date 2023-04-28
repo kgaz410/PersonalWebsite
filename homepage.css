@@ -1,0 +1,63 @@
+body {
+    background-color: #F8F7F6;
+}
+
+header {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* Nav Bar Add links later */
+nav{
+    height: 48px;
+}
+
+nav ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li{
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #a17d60;
+}
+
+/* IMAGE */
+img{
+    width: 1000px;
+    height: 450px;
+    margin-left: 12%;
+    margin-top: 5%;
+    display: block;
+    border-style: solid;
+    border-radius: 10px;
+    }
+div{
+    background-color: #efebe4;
+}
+
+
+h2{
+    font-family: Times, serif;
+    font-weight: lighter;
+    border-bottom-style: groove;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    font-size: 32px;
+}
+
+#p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+
+}
+
