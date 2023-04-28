@@ -1,5 +1,8 @@
 body {
     background-color: #F8F7F6;
+    border-bottom: #a17d60;
+    border-bottom-style: double;
+    border-bottom-width: 25px;
 }
 
 header {
@@ -8,12 +11,14 @@ header {
     font-weight: lighter;
     font-size: 30px;
     text-align: left;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 /* Nav Bar Add links later */
 nav{
-    height: 48px;
+    height: 20px;
+    border-bottom: #a17d60;
+    border-bottom-style: solid;
 }
 
 nav ul{
@@ -21,18 +26,18 @@ nav ul{
     margin-right: auto;
 }
 
-nav li{
+nav a{
     display: inline-block;
     text-align: center;
     height: 100%;
     width: 30%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     color: #a17d60;
 }
 
 /* IMAGE */
-img{
+#pic1{
     width: 1000px;
     height: 450px;
     margin-left: 12%;
@@ -41,8 +46,10 @@ img{
     border-style: solid;
     border-radius: 10px;
     }
-div{
+
+#div1{
     background-color: #efebe4;
+    padding-top: 0.01%;
 }
 
 
@@ -58,6 +65,34 @@ h2{
 #p1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 23px;
-
 }
 
+#p2{
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+    height: 30px;
+    margin-left: 2%;
+    line-height: 150%;
+}
+
+#p3{
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+    height: 30px;
+    margin-left: 5%;
+    line-height: 150%;
+}
+
+#pic2{
+    width: 300px;
+    height: 350px;
+    margin-left: 60%;
+    margin-block: -325px;
+    margin-block-end: 50px;
+    display: block;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 200px;
+}
