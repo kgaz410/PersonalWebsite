@@ -40,7 +40,7 @@ nav a{
 #pic1{
     width: 1000px;
     height: 450px;
-    margin-left: 12%;
+    margin-left: 15%;
     margin-top: 5%;
     display: block;
     border-style: solid;
@@ -74,6 +74,7 @@ h2{
     height: 30px;
     margin-left: 2%;
     line-height: 150%;
+    
 }
 
 #p3{
@@ -81,8 +82,8 @@ h2{
     text-align: left;
     width: 200px;
     height: 30px;
-    margin-left: 5%;
-    line-height: 150%;
+    margin-left: 7%;
+    line-height: 150%;    
 }
 
 #pic2{
@@ -95,4 +96,5 @@ h2{
     border-style: solid;
     border-width: 4px;
     border-radius: 200px;
+   
 }
