@@ -5,99 +5,154 @@ body {
 
 
 header {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 241, 241);
+    background-color: rgb(51, 51, 51);
+    font-family: 'Andale Mono', monospace, sans-serif;
     font-weight: lighter;
     font-size: 30px;
     text-align: left;
     line-height: 2;
 }
 
-/* Nav Bar Add links later */
+/* Nav Bar */
 nav{
-    height: 20px;
-    border-bottom: #a17d60;
-    border-bottom-style: solid;
-}
+    display: flex;
+     height: 30px;
+     border-bottom: rgb(241, 241, 241);
+     border-bottom-style: solid;
+     justify-content: space-around;
+     align-items: center;
+     background-color: rgb(51, 51, 51);
+ }
 
-nav ul{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-nav a{
-    display: inline-block;
-    text-align: center;
-    height: 100%;
-    width: 30%;
-    font-family: Arial, Helvetica, sans-serif;
+ nav a{
+    letter-spacing: 2px;
+    font-family: 'Andale Mono', monospace, sans-serif;
     font-size: 20px;
-    color: #a17d60;
+    color:rgb(241, 241, 241);
 }
 
-.details{
-    width: 60%;
-    height: 100%;
-    
+
+#cont1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
 }
+
 
 #pic1{
-    height: 1500px;
-    width: 40%;
-    margin-top: 5%;
-    margin-right: -5%;
-    float: right;
-    border-style: solid;
-    border-width: 7px;
-    
+    height: 500px;
+    width: max-content;
+  
 }
 
-h1{
-    font-size: 125px;
-    font-family: 'arial bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
-    letter-spacing: 30px;
-    padding-left: 50px;
+
+
+
+
+
+#cont2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    height: 600px;
+    justify-content: center;
+    background-color: rgb(223, 203, 193);
+}
+
+
+
+#pic2{
+    height: 550px;
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
 }
 
 h2{
-    font-family: 'arial bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;  ;
-    font-size: 50px;
-    padding-left: 50px;
-    margin-top: -30px;
-    letter-spacing: 5px;
+    font-family: 'Courier New', monospace, sans-serif;
+    font-size: 60px;
+    height: min-content;
+    letter-spacing: 10px;
+    font-weight: light;
+  
 }
 
 p{
-    font-size: 30px;
-    font-family: 'arial bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
-    margin-left: 50px;
-    margin-top: -30px;
-    border-bottom: solid;
-    border-width: 5px;
+    font-size: 20px;
+    font-family: Courier, monospace, sans-serif;
+    height: min-content;
+    
 }
 
+
+#cont3{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 10px;
+
+}
+
+#pic3{
+    width: 400px;
+}
+
+
+
+
+
+#cont4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    text-align: center;
+   
+}
+
+
 #project1{
-    margin-left: 24%;
-    margin-top: 10%;
-    font-family: 'arial bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-family: Courier, monospace, sans-serif;
     font-size: 28px;
     letter-spacing: 3px;
+    background-color: rgb(103, 155, 137);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
 }
 
 #project2{
-    margin-left: 24%;
-    margin-top: 25%;
-    font-family: 'arial bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-family: Courier, monospace, sans-serif;
     font-size: 28px;
-    letter-spacing: 3px;
+    letter-spacing: 3px; 
+    background-color: rgb(103, 155, 137);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #project3{
-    margin-left: 24%;
-    margin-top: 30%;
-    font-family: 'arial bold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-family: Courier, monospace, sans-serif;
     font-size: 28px;
     letter-spacing: 3px;
+    background-color: rgb(103, 155, 137);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
