@@ -1,84 +1,277 @@
 body {
-    background-color: #F8F7F6;
-    border-bottom: rgb(51, 51, 51);
-    border-bottom-style: double;
-    border-bottom-width: 25px;
-}
+    background-color: #B5C2B7;
 
-
-header {
-    color: rgb(241, 241, 241);
-    background-color: rgb(51, 51, 51);
-    font-family: 'Andale Mono', monospace, sans-serif;
-    font-weight: lighter;
-    font-size: 30px;
-    text-align: left;
-    line-height: 2;
 }
 
 /* Nav Bar */
+
+
+/* PARENT */
 nav{
     display: flex;
-     height: 30px;
-     border-bottom: rgb(241, 241, 241);
-     border-bottom-style: solid;
-     justify-content: space-around;
-     align-items: center;
-     background-color: rgb(51, 51, 51);
+    align-items: center;
+    background-color: #F8F7F6;
+    height: 8rem;
+    justify-content: space-between;
+ }
+
+
+ /* CO PARENT */
+ #links{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
+
 nav a{
-    letter-spacing: 2px;
+    letter-spacing: 0.05rem;
     font-family: 'Andale Mono', monospace, sans-serif;
-    font-size: 20px;
-    color:rgb(241, 241, 241);
+    font-size: 1rem;
+    color:rgb(51, 51, 51);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+#kelsey{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+nav h1{
+    letter-spacing: 0.3rem;
+    font-family: Bookman, "URW Bookman L", serif;
+    font-size: 2rem;
+    color:rgb(236, 205, 178);
+  
+  
 }
 
 
 /* IMAGE */
 #div1{
     display: flex;
-    margin-top: 10px;
+    flex-direction: row;
+    height: 40rem;
+    background-color: #edede9;
+ 
+
+ 
+}
+
+#pic1{
+    width: 20%;
+}
+#pic2{
+    width: 20%;
+}
+#pic3{
+    width: 20%;
+}
+#pic4{
+    width: 20%;
+}
+#pic5{
+    width: 20%;
+}
+
+
+
+/* EDUCATION */ 
+#head1{
+    display: flex;
+    background-color: #edede9;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    margin-top: 5rem;
+    
+}
+
+
+h2{
+    margin-left: 1rem;
+    color:rgb(51, 51, 51);
+   
+}
+
+
+/*MAIN PARENT*/
+#school{
+    display: flex;
+    padding-top: .25rem;
+
+}
+
+/*CO PARENT*/
+#schoolname{
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+    align-items: flex-start;
+    width: 50%;
+    background-color: #F9F7F1;
+    padding: .5rem;
+    color:rgb(51, 51, 51);
+ 
     
    
 }
 
-#pic1{
-    width: max-content;
-    height: 500px;
-    
-    }
+/*CHILD*/
+.p1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color:rgb(51, 51, 51);
 
- 
-.h2{
-    display: flex;
-    height: 100px;
-    align-items: center;
-    font-family: Courier, monospace, sans-serif;
-    font-weight: lighter;
-    padding-left: 5px;
-   margin-top: 10px;
-    font-size: 32px;
-    letter-spacing: 5px;
-    background-color: rgb(223, 203, 193);
-    background-image: linear-gradient(to right, rgb(223, 203, 193), rgb(255, 242, 235)  );
 }
 
-#p1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 27px;
-}
 
+/*CHILD*/
 .p2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-}
-
-p{
-    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color:rgb(51, 51, 51);
 
 }
 
-li{
-    font-size: 20px;
+/*CO PARENT*/
+#ungradstudy{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #F3EFE2;
+    padding: 0.5rem;
+    color:rgb(51, 51, 51);
+
 }
+
+/*CHILD*/
+ul{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color:rgb(51, 51, 51);
+}
+
+
+/* CERTS */
+#head2{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 0.25rem;
+    background-color: #edede9;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    color:rgb(51, 51, 51);
+   
+}
+
+/*MAIN PARENT*/
+#certs{
+    display: flex;
+    height: 20rem;
+    background-color: #F3EFE2;
+    font-size: 5rem;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+/* WORK EXPERIENCE */
+
+/* HEADER */
+#head3{
+    display: flex;
+    margin-top: 5rem;
+    background-color: #edede9;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    color:rgb(51, 51, 51);
+   
+}
+
+/* MAIN PARENT */
+#work1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: .25rem;
+  
+
+}
+
+/* CO PARENT */
+#job1{
+    display: flex;
+    flex-direction: column;
+    width: 48.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    background-color: #F3EFE2;
+    padding: 0.5rem;
+    color:rgb(51, 51, 51);
+
+
+    
+
+}
+
+/* CHILD */
+.p3{
+    font-size: 2rem;
+    color:rgb(51, 51, 51);
+  
+}
+
+/* CO PARENT */
+#job2{
+    display: block;
+    flex-direction: column;
+    width: 48.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    background-color: #f9f7f1;
+    padding: 0.5rem;
+    color:rgb(51, 51, 51);
+ 
+  
+    
+
+}
+
+/* MAIN PARENT */
+#work2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    background-color:#E3DAC9;
+    padding: 0.5rem;
+    color:rgb(51, 51, 51);
+    margin-bottom: 5rem;
+  
+
+}
+
+
+
+

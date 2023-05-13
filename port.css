@@ -1,161 +1,244 @@
 body {
-    background-color: #F8F7F6;
-
-}
-
-
-header {
-    color: rgb(241, 241, 241);
-    background-color: rgb(51, 51, 51);
-    font-family: 'Andale Mono', monospace, sans-serif;
-    font-weight: lighter;
-    font-size: 30px;
-    text-align: left;
-    line-height: 2;
+    background-color: #36454F;
+    margin-bottom: 5rem;
+ 
+  
 }
 
 /* Nav Bar */
+
+/* PARENT */
 nav{
     display: flex;
-     height: 30px;
-     border-bottom: rgb(241, 241, 241);
-     border-bottom-style: solid;
-     justify-content: space-around;
-     align-items: center;
-     background-color: rgb(51, 51, 51);
+    align-items: center;
+    background-color: #F8F7F6;
+    height: 8rem;
+    justify-content: space-between;
  }
 
- nav a{
-    letter-spacing: 2px;
-    font-family: 'Andale Mono', monospace, sans-serif;
-    font-size: 20px;
-    color:rgb(241, 241, 241);
-}
 
-
-#cont1{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-
-}
-
-
-#pic1{
-    height: 500px;
-    width: max-content;
-  
-}
-
-
-
-
-
-
-#cont2{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-flow: column wrap;
-    height: 600px;
-    justify-content: center;
-    background-color: rgb(223, 203, 193);
-}
-
-
-
-#pic2{
-    height: 550px;
-    width: 400px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-
-}
-
-h2{
-    font-family: 'Courier New', monospace, sans-serif;
-    font-size: 60px;
-    height: min-content;
-    letter-spacing: 10px;
-    font-weight: light;
-  
-}
-
-p{
-    font-size: 20px;
-    font-family: Courier, monospace, sans-serif;
-    height: min-content;
-    
-}
-
-
-#cont3{
-    display: flex;
-    justify-content: center;
-    height: 80px;
-    margin-bottom: 10px;
-
-}
-
-#pic3{
-    width: 400px;
-}
-
-
-
-
-
-#cont4{
+ /* CO PARENT */
+ #links{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 5px;
-    text-align: center;
+    height: 100%;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav a{
+    letter-spacing: 0.05rem;
+    font-family: 'Andale Mono', monospace, sans-serif;
+    font-size: 1rem;
+    color:rgb(51, 51, 51);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#kelsey{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+nav h1{
+    letter-spacing: 0.3rem;
+    font-family: Bookman, "URW Bookman L", serif;
+    font-size: 2rem;
+    color:rgb(236, 205, 178);
+  
+  
+}
+
+
+
+
+/* IMAGE */
+#picheader{
+    display: flex;
+    flex-direction: row;
+    height: 50rem;
+    background-color: #edede9;
+
+}
+
+#pic1{
+    width: 100%;
+    height: 100%;
    
+  
 }
 
 
-#project1{
-    font-family: Courier, monospace, sans-serif;
-    font-size: 28px;
-    letter-spacing: 3px;
-    background-color: rgb(103, 155, 137);
-    height: 300px;
-    width: 300px;
+
+
+
+
+/* PORT HEADER/ PARENT */
+#portheader{
     display: flex;
-    align-items: center;
+    opacity: 60%;
+    flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
+    height: 15rem;
+    background-color: #edede9;
+    color: rgb(51, 51, 51);
+    font-size: 10rem;
    
-}
-
-#project2{
-    font-family: Courier, monospace, sans-serif;
-    font-size: 28px;
-    letter-spacing: 3px; 
-    background-color: rgb(103, 155, 137);
-    height: 300px;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#project3{
-    font-family: Courier, monospace, sans-serif;
-    font-size: 28px;
-    letter-spacing: 3px;
-    background-color: rgb(103, 155, 137);
-    height: 300px;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
 
  
+
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* PROJECTS */
+
+/* PARENT */
+#project1{
+    display: flex;
+    background-color: #F3EFE2;
+    margin-top: 5rem;
+    width: 70%;
+    height: 50rem;    
+  
+}
+
+/* CO PARENT */
+#div1{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+/* CHILD */
+#pic2{
+    height: 100%;
+    width: 100%;
+}
+
+/* CO PARENT */
+#div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/* CHILD */
+#p1{
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(51, 51, 51);
+   
+}
+
+
+
+
+/* PARENT */
+#project2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50rem;
+    background-color: #F3EFE2;
+    margin-top: 5rem;
+    width: 70%;
+  
+}
+
+/* CO PARENT */
+#div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+
+/* CHILD */
+#pic3{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* CO PARENT */
+#div4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/* CHILD */
+#p2{
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(51, 51, 51);
+   
+}
+
+
+/* PARENT */
+#project3{
+    display: flex;
+    flex-direction: row;
+    height: 50rem;
+    background-color: #F3EFE2;
+    margin-top: 5rem;
+    width: 70%;
+ 
+}
+
+/* CO PARENT */
+#div5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/* CHILD */
+#pic4{
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+/* CO PARENT */
+#div6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/* CHILD */
+#p3{
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(51, 51, 51);
+   
+}
